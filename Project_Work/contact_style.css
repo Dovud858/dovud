@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@100&family=Oswald:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@100&family=Oswald:wght@300&family=Quicksand:wght@300&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@200&family=Montserrat:wght@100&family=Oswald:wght@300&family=Quicksand:wght@300&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@100&family=Oswald:wght@300&family=Quicksand:wght@300&display=swap');
+body{
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 1px; /* Ширина всего элемента навигации */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ffffff ; /* Цвет дорожки */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #202020; /* Цвет бегунка */
+    border-radius: 10px; /* Округление бегунка */
+  }
+
+header{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: #323232;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    color: white;
+}
+.logo{
+    height: 60%;
+    width: 5%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.reg{
+    margin-top: 0;
+    width: 100%;
+    height: 88vh;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_1 {
+    background-color: #202020;
+    height: 100%;
+    width: 400px;
+    margin: 50px;
+    padding: 10px;
+    font-family: "Montserrat";
+    border-right: white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form_2 {
+    background-color: #202020;
+    height: 100%;
+    width: 400px;
+    margin: 50px;
+    padding: 10px;
+    font-family: "Montserrat";
+    border-right: white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form_3 {
+    background-color: #202020;
+    height: 100%;
+    width: 420px;
+    margin: 50px;
+    padding: 10px;
+    font-family: "Montserrat";
+    border-right: white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
