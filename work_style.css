@@ -7,7 +7,7 @@ body{
 }
 
 body::-webkit-scrollbar {
-    width: 1px; /* Ширина всего элемента навигации */
+    width: 2px; /* Ширина всего элемента навигации */
   }
   
   body::-webkit-scrollbar-track {
@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
     border-radius: 10px; /* Округление бегунка */
   }
 
-header{
+header {
     height: 10%;
     display: flex;
     justify-content: space-between;
@@ -28,23 +28,36 @@ header{
     padding-right: 10%;
     padding-left: 10%;
     background-color: #323232;
-    
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 120px;
     color: white;
 }
-.logo{
+
+.logo {
     height: 60%;
     width: 5%;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: white;
     font-family: "Montserrat";
     font-weight: bolder;
     font-size: 20px;
+}
+
+/* планшеты горизонтально */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .reg {
+    height: 0px;
+  }
+}
+
+/* планшеты вертикально */
+@media (min-width: 768px) and (max-width: 991px) {
 }
