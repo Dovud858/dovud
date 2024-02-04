@@ -65,7 +65,7 @@ $('.row_1').on('mouseover', function() {
 });
 
 $('.row_1').on('mouseout', function() {
-    $('.row_1').css('filter', 'brightness(70%)')
+    $('.row_1').css('filter', 'brightness(90%)')
 });
 
 $('.row_2').on('mouseover', function() {
@@ -73,7 +73,7 @@ $('.row_2').on('mouseover', function() {
 });
 
 $('.row_2').on('mouseout', function() {
-    $('.row_2').css('filter', 'brightness(70%)')
+    $('.row_2').css('filter', 'brightness(90%)')
 });
 
 $('.row_3').on('mouseover', function() {
@@ -81,7 +81,7 @@ $('.row_3').on('mouseover', function() {
 });
 
 $('.row_3').on('mouseout', function() {
-    $('.row_3').css('filter', 'brightness(70%)')
+    $('.row_3').css('filter', 'brightness(90%)')
 });
 
 $('.row_4').on('mouseover', function() {
@@ -89,7 +89,7 @@ $('.row_4').on('mouseover', function() {
 });
 
 $('.row_4').on('mouseout', function() {
-    $('.row_4').css('filter', 'brightness(70%)')
+    $('.row_4').css('filter', 'brightness(90%)')
 });
 
 $('.row_5').on('mouseover', function() {
@@ -97,7 +97,7 @@ $('.row_5').on('mouseover', function() {
 });
 
 $('.row_5').on('mouseout', function() {
-    $('.row_5').css('filter', 'brightness(70%)')
+    $('.row_5').css('filter', 'brightness(90%)')
 });
 
 $('.row_6').on('mouseover', function() {
@@ -105,5 +105,5 @@ $('.row_6').on('mouseover', function() {
 });
 
 $('.row_6').on('mouseout', function() {
-    $('.row_6').css('filter', 'brightness(70%)')
+    $('.row_6').css('filter', 'brightness(90%)')
 });
